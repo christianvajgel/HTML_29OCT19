@@ -9,10 +9,22 @@ body {
 
 header{
     border: 1px solid red;
+    text-align: center;
 }
 
 header img{
-    border: 1px solid green;
     height: 150px;
-    margin: 0 auto;
+    width: 150px;
+    margin: 0 auto !important;
+    border-radius: 75px 75px 75px 10px;
+    transform: rotate(75deg);
+}
+
+h1.noheader {
+    font-family: Verdana, sans-serif;
+}
+
+li {
+    margin-left: 25px;
+    list-style-type: circle;
 }
